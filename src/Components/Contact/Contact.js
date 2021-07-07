@@ -63,8 +63,12 @@ const Contact = () => {
                 </a>
             </div>
             <Footer toAddress="/about" link="about me." phrase="Read more " />
-            <div className="vector-frame">
-                <img src={contactVector} alt="contact-vector" />
+            <div className="vec-frame">
+                <img
+                    src={contactVector}
+                    alt="contact-vector"
+                    className="contact-vector"
+                />
             </div>
         </div>
     )
